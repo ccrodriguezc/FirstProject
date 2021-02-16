@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    border: 4px black double;
+    border-radius: 8px;
+    background-color: greenyellow;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: -20px;
+    margin-left: 42%;
+}
+
+.cuerpo {
+    background-color: coral;
+    border: 4px black double;
+    border-radius: 8px;
+    padding: 1.6rem;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cuerpo .image {
+    width:18rem;  
+    border: 4px black double;
+    position: inherit;
+    left: 10rem;
+    display: inline-block;
+    margin: 0 auto;
+}
