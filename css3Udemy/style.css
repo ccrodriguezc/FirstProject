@@ -1,0 +1,31 @@
+/* selector de etiqueta */
+
+h1 {
+    background-color: yellow;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Selector ID*/
+
+#rojo {
+    color: red;
+}
+
+/* Selector por Class*/
+
+.verde {
+    color: green;
+}
+
+h3.verde {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
+
+.destacado {
+    font-size: 30px;
+}

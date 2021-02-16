@@ -1,0 +1,80 @@
+/* Selector universal*/
+
+* {
+    margin: ;
+    padding: ;
+}
+
+/* Selector multiple*/
+
+h2, .intro {
+    font-size: 25px;
+}
+
+/* Selector decendiente*/
+
+div p {
+    background-color: blue;
+    color: white;
+}
+
+/* Selector de hijos*/
+
+ol > li {
+    color: red;
+}
+
+/*Selector adyacente*/
+
+div + p {
+    background-color: seagreen;
+}
+
+/*Selector hermano general*/
+
+div ~ p {
+    font-size: 25px;
+    background-color: burlywood;
+}
+
+/*Selector de Atributos [atr]*/
+
+a[target] {
+    color: green;
+}
+
+/*Selector de atributos [atr-"valor"]*/
+
+a[target="_Self"] {
+    color: red;
+}
+
+/*Selector de atributos [atr^="valor"]*/
+
+p[class^="destacado2"] {
+    background-color: yellow;
+}
+
+/*Selector de stributos [atr$="valor"]*/
+
+a[href$=".es"] {
+    color: darkred;
+}
+
+/*Selector de atributos [art*="valor"]*/
+
+li[title*=cur] {
+    font-size: 22px;
+} 
+
+/*Selector de atributos [art~="valor"]*/
+
+p[class~="destacado2"] {
+    color: blue;
+}
+
+/*Selector de atributos [art|="valor"]*/
+
+p[class|="texto"] {
+    font-size: 18px;
+}

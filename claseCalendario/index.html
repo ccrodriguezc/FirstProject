@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <!-- fromualrio básico de calendario 
+        
+        <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">
+        </label>
+        <label for="dia">
+            <span>Día</span>
+            <input type="date" id="dia" name="dia">
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana">
+        </label>
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes">
+        </label>
+        <input type="submit" name="enviar">
+    </form>  
+
+
+    //formualrio de calendario mas cómodo--
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit" name="enviar">
+    </form>-->
+
+    <form action="">
+        <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input type="texto" id="nombre" name="nombre" autocomplete="name" required>
+        </label><br>
+        <label for="correo">
+            <span>¿Cuál es tu correo?</span>
+            <input type="email" id="correo" name="correo" autocomplete="email" required>
+        </label><br>
+        <label for="pais">
+            <span>¿En qué país vives?</span>
+            <input type="text" id="pais" name="pais" autocomplete="country" required>
+        </label><br>
+        <label for="cp">
+            <span>¿Cuál es ti código postal?</span>
+            <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+        </label><br>
+        <input type="submit" name="enviar">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* hermano adyacente*/
+
+h2 + p {
+    color: red;
+}
+
+/*hermano general*/
+
+h2 ~ p {
+    color: brown;
+    font-size: 50px;
+}
+
+/*hijo*/
+
+div > p {
+    color: red;
+}
+
+/*descendiente*/
+
+div p {
+    background-color: blue;
+}

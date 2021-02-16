@@ -1,0 +1,30 @@
+.titulo{
+    color: darkolivegreen;
+    font-size: 50px;
+    font: bold;
+}
+
+ul{
+    color: darkslateblue;
+    font-size: 30px;
+    font: caption, bolder;
+}
+
+.orden{
+    color: crimson;
+    font-size: 20px;
+    font: italic;
+}
+
+.reducir{
+    color: cadetblue;
+    font-size: 10px;
+}
+
+img{
+    width: 5%;
+}
+
+fieldset{
+    border: darkgreen;
+}

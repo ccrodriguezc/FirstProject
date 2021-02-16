@@ -1,0 +1,24 @@
+/*medidas absolutas y relativas
+
+main {
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+p {
+    font-size: 16px;
+} */
+
+/*elemento em */
+
+/* body {
+    font-size: 20px;
+} */
+
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
