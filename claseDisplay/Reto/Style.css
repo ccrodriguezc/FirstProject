@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: peru;
+  }
+  .header__logo, .nav, .nav__list li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .nav {
+    position: absolute;
+    right: 0;
+  }
+  .nav__list {
+    list-style: none;
+  }
+  .nav__list li a {
+    text-decoration: none;
+    color: white;
+  }
+  .main {
+    height: 400px;
+    background-color: seagreen;
+  }
+  .routes {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: royalblue;
+  }
+  .routes__images img {
+    display: block;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  .content {
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+  }
